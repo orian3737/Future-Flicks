@@ -8,13 +8,21 @@ function MoviePage() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:6001/movies")
-      .then((response) => response.json())
+    fetch("http://localhost:6001/movies")  // Ensure this URL is correct
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
       .then((data) => {
         const formattedData = data.map((movie) => ({
           ...movie
         }));
         setMovies(formattedData);
+      })
+      .catch((error) => {
+        console.error("Failed to fetch movies:", error);
       });
   }, []);
 
@@ -30,9 +38,17 @@ function MoviePage() {
       },
       body: JSON.stringify(formattedMovie)
     })
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
       .then((movie) => {
         setMovies([...movies, movie]);
+      })
+      .catch((error) => {
+        console.error("Failed to add movie:", error);
       });
   };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import MovieCard from "./Moviecard";
+import MovieCard from "./MovieCard";
 
 function MovieList({ movies, searchTerm }) {
   return (
