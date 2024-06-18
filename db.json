@@ -1,116 +1,170 @@
 {
   "movies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Guardians of the Galaxy Vol. 3",
-      "image": "https://m.media-amazon.com/images/M/MV5BYmFiMGQ1ODQtY2Q0Yy00M2MxLWI3NzgtYjk1NmI5MmQ5YzY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "image": "images/Guardians_of_the_Galaxy_Vol._3_poster.jpg",
       "release_date": "2024-05-01",
       "director": "James Gunn",
-      "genre": ["Action", "Adventure", "Comedy"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Mission: Impossible 8",
-      "image": "https://m.media-amazon.com/images/M/MV5BZjZlZjA4NzQtMjBhZi00NjdiLWE4Y2MtNjdiM2ZhNTA2OGVhXkEyXkFqcGdeQXVyNjI2ODk2NTc@._V1_.jpg",
+      "image": "images/MI8.jpg",
       "release_date": "2024-07-26",
       "director": "Christopher McQuarrie",
-      "genre": ["Action", "Thriller"]
+      "genre": [
+        "Action",
+        "Thriller"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Avatar 3",
-      "image": "https://m.media-amazon.com/images/M/MV5BZmMyYTA4MGUtZGYyNy00ZTBkLWEzYjMtNzVjZTMzNmFmOGMxXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg",
+      "image": "images/avatar3.jpg",
       "release_date": "2024-12-20",
       "director": "James Cameron",
-      "genre": ["Action", "Adventure", "Sci-Fi"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "The Batman 2",
-      "image": "https://m.media-amazon.com/images/M/MV5BYWY3Yzk3MzUtZDYxMi00ODZkLThlYmQtOTc4MWM2ZTVmOTVlXkEyXkFqcGdeQXVyMjE5MzM3NzE@._V1_.jpg",
+      "image": "images/BM2.jpg",
       "release_date": "2024-10-04",
       "director": "Matt Reeves",
-      "genre": ["Action", "Crime", "Drama"]
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Fantastic Beasts 4",
-      "image": "https://m.media-amazon.com/images/M/MV5BZmUwNTlhOGYtZGI0ZS00MGRkLTg2NmMtYmQwMGEwYjA4YjZlXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
+      "image": "images/FB4.jpg",
       "release_date": "2024-11-15",
       "director": "David Yates",
-      "genre": ["Adventure", "Family", "Fantasy"]
+      "genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Spider-Man: Beyond the Spider-Verse",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTQ2ZmUwY2ItOGQ0Mi00ZGRhLTgzZTgtNmY4MjdiYmU4OWI3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+      "image": "images/SMB.jpg",
       "release_date": "2024-03-29",
       "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
-      "genre": ["Animation", "Action", "Adventure"]
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Jurassic World: Dominion 2",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjMzZGU4ZDItM2M2ZC00NzgwLTgxM2UtMjFjNDg2NDQzZGY1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_FMjpg_UX1000_.jpg",
+      "image": "images/JurassicWorldDominion.jpeg",
       "release_date": "2024-06-14",
       "director": "Colin Trevorrow",
-      "genre": ["Action", "Adventure", "Sci-Fi"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Star Wars: Rogue Squadron",
-      "image": "https://m.media-amazon.com/images/M/MV5BZjFmZjkzZGUtYzJiYS00Yzg2LTg2MGYtNDA3NmQ1YjJhMGFhXkEyXkFqcGdeQXVyNzY3ODcyNTY@._V1_.jpg",
+      "image": "images/SWRS.jpg",
       "release_date": "2024-12-22",
       "director": "Patty Jenkins",
-      "genre": ["Action", "Adventure", "Fantasy"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ]
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Avengers: Secret Wars",
-      "image": "https://m.media-amazon.com/images/M/MV5BM2VkZGRkMGUtZmE1ZC00ZmM2LWJkOTYtYzEwOTViZmQ5YjM5XkEyXkFqcGdeQXVyMTU0OTQyMDI@._V1_.jpg",
+      "image": "images/ASW.jpg",
       "release_date": "2025-05-02",
       "director": "Joe Russo, Anthony Russo",
-      "genre": ["Action", "Adventure", "Sci-Fi"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Indiana Jones 6",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzA1MzIxNDUzMl5BMl5BanBnXkFtZTgwNDM2OTY3MzE@._V1_FMjpg_UX1000_.jpg",
+      "image": "images/IJ6.jpg",
       "release_date": "2025-07-11",
       "director": "James Mangold",
-      "genre": ["Action", "Adventure"]
+      "genre": [
+        "Action",
+        "Adventure"
+      ]
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Fantastic Four",
-      "image": "https://m.media-amazon.com/images/M/MV5BNGVhMDYxM2YtYTI4MC00NDI0LWEyYTItZTg2NzQ1ZjdiMTQ2XkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg",
+      "image": "images/FF25.jpg",
       "release_date": "2025-11-07",
       "director": "Jon Watts",
-      "genre": ["Action", "Adventure", "Sci-Fi"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Shazam! Fury of the Gods",
-      "image": "https://m.media-amazon.com/images/M/MV5BZDdiNTJkNzAtZDJjYS00ODVhLWFkYmMtMmY0MDczOGNmZDA1XkEyXkFqcGdeQXVyMzQ5Njc5NzU@._V1_.jpg",
+      "image": "images/SFog.jpg",
       "release_date": "2025-04-04",
       "director": "David F. Sandberg",
-      "genre": ["Action", "Adventure", "Comedy"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ]
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Wicked Part 2",
-      "image": "https://m.media-amazon.com/images/M/MV5BM2MyODcyYWUtYzBlYy00OTYxLTkzNTEtOTQ1ZDZkZTM0ZjMzXkEyXkFqcGdeQXVyNjU1OTg4MzE@._V1_FMjpg_UX1000_.jpg",
+      "image": "images/Wik2.jpeg",
       "release_date": "2025-12-25",
       "director": "Jon M. Chu",
-      "genre": ["Drama", "Fantasy", "Musical"]
+      "genre": [
+        "Drama",
+        "Fantasy",
+        "Musical"
+      ]
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Transformers: Rise of the Beasts 2",
-      "image": "https://m.media-amazon.com/images/M/MV5BN2Q4NzM2NjAtMjE0OC00MzRmLTgzMzAtNDg0OGRhNzNiNmIzXkEyXkFqcGdeQXVyMjAwNzcwOTc@._V1_.jpg",
+      "image": "images/TROB2.jpg",
       "release_date": "2025-06-27",
       "director": "Steven Caple Jr.",
-      "genre": ["Action", "Adventure", "Sci-Fi"]
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     }
   ]
 }
