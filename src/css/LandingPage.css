@@ -1,0 +1,55 @@
+
+.landing-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    background-color: #0066cc63;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .intro-section,
+  .features-section {
+    margin: 20px 0;
+  }
+  
+  .features-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features-section ul li {
+    
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .image-gallery {
+    margin-top: 10px;
+  }
+  
+  .image-gallery .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .button{
+    margin-top: 15px;
+    color: #eee;
+    background-color: #1d5fa1;
+    border: solid 2px #eee;
+    font-size: 20px;
+    padding: 12px 28px;
+  }
+  

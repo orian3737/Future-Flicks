@@ -26,7 +26,7 @@ function NewMovieForm({ addNewMovie }) {
 
     return (
         <div className="new-movie-form">
-            <h2>New Movie</h2>
+            <h2>Add A New Movie</h2>
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"

@@ -1,15 +1,17 @@
-import React from "react";
+import React from 'react';
 import '../App.css';
-import Header from "./Header";
-import Home from "./Home";
-import MoviePage from "./MoviePage.js";
+import Header from './Header';
+import MoviePage from './MoviePage';
+import NavBar from './NavBar';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
+      <NavBar />
       <MoviePage />
+      
     </div>
   );
 }

@@ -1,0 +1,24 @@
+/* src/css/NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: aliceblue;
+    text-decoration: underline;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  
+  .navbar a.active-link {
+    background-color: #555;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
