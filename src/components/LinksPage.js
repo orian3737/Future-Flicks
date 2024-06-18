@@ -27,9 +27,9 @@ function LinksPage() {
     </div>
     <div className="image-gallery">
         <div className="images">
-          <img src="images/ASW.jpg" alt="Upcoming Movie 1" />
-          <img src="images/FB4.jpg" alt="Upcoming Movie 2" />
-          <img src="images/BM2.jpg" alt="Upcoming Movie 3" />
+          <img src="images/TROB2.jpg" alt="Upcoming Movie 1" />
+          <img src="images/SFoG.jpg" alt="Upcoming Movie 2" />
+          <img src="images/MI8.jpg" alt="Upcoming Movie 3" />
         </div>
       </div>
     </div>

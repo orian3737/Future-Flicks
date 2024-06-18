@@ -12,7 +12,7 @@ function MovieCard({ id, title, image, release_date, director, genre }) {
       <p>Release Date: {release_date}</p>
       <p>Director: {director}</p>
       <p>Genre: {genre}</p>
-      <button onClick={toggleReleased}>{released ? "Released" : "Not Released"}</button>
+      <button onClick={toggleReleased}>{released ? "Not Released" : "Released"}</button>
     </li>
   );
 }
