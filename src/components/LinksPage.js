@@ -1,7 +1,8 @@
 import React from "react";
 import '../css/LinksPage.css';
-import Header from './Header'
-import NavBar from './NavBar'
+import Header from './Header';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 function LinksPage() {
   return (
@@ -32,6 +33,7 @@ function LinksPage() {
           <img src="images/MI8.jpg" alt="Upcoming Movie 3" />
         </div>
       </div>
+      <Footer class="foot"/>
     </div>
   );
 }

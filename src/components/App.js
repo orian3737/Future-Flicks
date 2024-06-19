@@ -3,6 +3,7 @@ import '../App.css';
 import Header from './Header';
 import MoviePage from './MoviePage';
 import NavBar from './NavBar';
+import Footer from './Footer';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <NavBar />
       <MoviePage />
+      <Footer/>
       
     </div>
   );

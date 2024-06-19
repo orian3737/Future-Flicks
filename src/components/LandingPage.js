@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import '../css/LandingPage.css';
+import Footer from './Footer'
 
 
 function LandingPage() {
@@ -31,15 +32,16 @@ function LandingPage() {
       </div>
       <div className="image-gallery">
         <h2>Popular Upcoming Movies</h2>
+        <Link to="/app">
+          <button class="button">Enter</button>
+        </Link>
         <div className="images">
           <img src="images/ASW.jpg" alt="Upcoming Movie 1" />
           <img src="images/FB4.jpg" alt="Upcoming Movie 2" />
           <img src="images/BM2.jpg" alt="Upcoming Movie 3" />
         </div>
       </div>
-      <Link to="/app">
-          <button class="button">Enter</button>
-        </Link>
+      <Footer/>
     </div>
   );
 }
