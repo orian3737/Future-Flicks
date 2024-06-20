@@ -6,11 +6,15 @@ function Footer() {
   return (
     <footer className="footer">
       <p>&copy; 2024 Future Flicks. All rights reserved.</p>
-      <nav>
-        <a href="#app" onClick={() => window.scrollTo(0, 0)}>Home</a>
-        <a href="#links" onClick={() => window.scrollTo(0, 0)}>Links</a>
-        <h1>~ Thanks for Visiting ~</h1>
-      </nav>
+      <nav className='navbar'>
+            <NavLink to ="/app" activeClassName="active-link">
+                Home
+            </NavLink>
+            <h1>~ We got The Movies ~</h1>
+            <NavLink to="/LinksPage" activeClassName="active-link">
+                Links
+            </NavLink>
+        </nav>
     </footer>
   );
 }
